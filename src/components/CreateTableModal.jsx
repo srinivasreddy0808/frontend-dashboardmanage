@@ -33,7 +33,6 @@ function CreateTableModal({ onClose }) {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2FiNzg1MmQ1OTc3M2I5NmNiMWM0ZCIsImlhdCI6MTc0MTMzODYyNSwiZXhwIjoxNzQ5MTE0NjI1fQ.uwhITRq-WgSO9q1jhnO9oXwO1ppoDM8OkbbMQhmODgs`,
             },
             body: JSON.stringify({ tableName, headers }),
           },
